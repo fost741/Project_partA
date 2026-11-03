@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿using Project_partA.Enums;
 namespace Project_partA.Interfaces
 {
-    internal class IPaymentProcessor
+    public interface IPaymentProcessor
     {
+        bool ProcessPayment(PaymentType paymentType, decimal amount);
+        void Refund(string transactionId);
     }
 }
