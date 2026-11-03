@@ -1,10 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Project_partA.Classes
+﻿namespace Project_partA.Classes
 {
-    internal class Customer
+    public class Customer
     {
+        public string CustomerId { get; set; }
+        public string FullName { get; set; }
+        public decimal BonusBalance { get; set; }
+
+        public void AddBonuses()
+        {
+            throw new NotImplementedException();
+        }
+        public void SpendBonuses(decimal amount)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

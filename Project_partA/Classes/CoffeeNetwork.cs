@@ -1,10 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Project_partA.Classes
 {
-    internal class CoffeeNetwork
+    public class CoffeeNetwork
     {
+        public string NetworkName { get; set; }
+        public List<CoffeeKiosk> Kiosks { get; set; } = new List<CoffeeKiosk>();
+
+        public void AddKiosk(CoffeeKiosk kiosk)
+        {
+            throw new NotImplementedException();
+        }
+        public decimal GetTotalRevenue()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

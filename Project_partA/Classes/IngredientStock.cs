@@ -1,10 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Project_partA.Classes
 {
-    internal class IngredientStock
+    public class IngredientStock
     {
+        public Dictionary<string, int> IngredientsMap { get; set; } = new Dictionary<string, int>();
+
+        public bool CheckAndDeduct(Dictionary<string, int> required)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RefillStock(string item, int amount)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
