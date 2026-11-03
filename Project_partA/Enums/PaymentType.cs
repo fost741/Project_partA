@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Project_partA.Enums
+﻿namespace Project_partA.Enums
 {
-    internal class PaymentType
+    public enum PaymentType
     {
+        Card,
+        QRCode,
+        Bonuses,
+        Cash
     }
 }

@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Project_partA.Enums
+﻿namespace Project_partA.Enums
 {
-    internal class KioskStatus
+    public enum KioskStatus
     {
+        Active,
+        OutOfIngredients,
+        Manintenance,
+        Offline
     }
 }
