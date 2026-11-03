@@ -5,10 +5,22 @@ namespace Project_partA.Classes
 {
     public class Order
     {
-        public string OrderId { get; set; }
+        public string OrderId
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
         public List<Beverage> Items { get; set; } = new List<Beverage>();
-        public decimal TotalPrice { get; set; }
-        public OrderStatus Status { get; set; }
+        public decimal TotalPrice
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
+        public OrderStatus Status
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
 
         public void AddItem(Beverage beverage)
         {

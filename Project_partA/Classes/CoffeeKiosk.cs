@@ -4,8 +4,16 @@ namespace Project_partA.Classes
 {
     public class CoffeeKiosk
     {
-        public int KioskId { get; set; }
-        public string Address { get; set; }
+        public int KioskId
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
+        public string Address
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
         public IngredientStock Stock { get; set; }
         public KioskStatus Status { get; set; }
 

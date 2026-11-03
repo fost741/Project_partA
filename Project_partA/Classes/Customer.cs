@@ -2,11 +2,23 @@
 {
     public class Customer
     {
-        public string CustomerId { get; set; }
-        public string FullName { get; set; }
-        public decimal BonusBalance { get; set; }
+        public string CustomerId
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
+        public string FullName
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
+        public decimal BonusBalance
+        {
+            get { throw new System.NotImplementedException(); }
+            set { throw new System.NotImplementedException(); }
+        }
 
-        public void AddBonuses()
+        public void AddBonuses(decimal amount)
         {
             throw new NotImplementedException();
         }
